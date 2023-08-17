@@ -1,8 +1,8 @@
 cmake_minimum_required(VERSION 3.24)
-project(timu)
+project(MyCode)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_subdirectory(DJI)
+add_executable(MT MT.cpp)
 
-add_subdirectory(MT)
+add_executable(DJI DJI.cpp)

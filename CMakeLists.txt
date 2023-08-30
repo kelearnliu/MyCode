@@ -8,3 +8,4 @@ add_executable(MT2 MT2.cpp)
 
 add_executable(DJI DJI.cpp)
 add_executable(DEWU DEWU.cpp)
+add_executable(TT TT.cpp)

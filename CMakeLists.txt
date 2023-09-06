@@ -12,3 +12,4 @@ add_executable(TT TT.cpp)
 
 add_executable(ZSBank ZSBank.cpp)
 add_executable(YT YT.cpp)
+add_executable(GLD GLD.cpp)

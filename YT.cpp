@@ -19,22 +19,22 @@ void t1()
     cout<<"unordered_set"<<endl;
     unordered_set<int> st1(nums1.begin(), nums1.end());
     unordered_set<int> st2(nums2.begin(), nums2.end());
-    printVector(st1);
-    printVector(st2);
+//    printVector(st1);
+//    printVector(st2);
 
     // set 有序存放 红黑树
     cout<<"set"<<endl;
     set<int> st3(nums1.begin(), nums1.end());
     set<int> st4(nums2.begin(), nums2.end());
-    printVector(st3);
-    printVector(st4);
+//    printVector(st3);
+//    printVector(st4);
 
     // multiset
     cout<<"multiset"<<endl;
     multiset<int> st5(nums1.begin(), nums1.end());
     multiset<int> st6(nums2.begin(), nums2.end());
-    printVector(st5);
-    printVector(st6);
+//    printVector(st5);
+//    printVector(st6);
 
     vector<int> res;
     for(auto num:st1)
@@ -44,7 +44,7 @@ void t1()
             res.push_back(num);
         }
     }
-    printVector(res);
+//    printVector(res);
 }
 
 //给定一个n*n的矩阵，每行每列都是升序排列的，请找到第K个最小的元素
@@ -128,7 +128,7 @@ void t3()
     int m=matrix[0].size();
     vector<int> res;
     res.reserve(n*m);
-    if(n==0) printVector(matrix[0]);
+//    if(n==0) printVector(matrix[0]);
     for(int i=0;i<n+m-1;i++)
     {
         // 向右上走 i是偶数  向左下走 i是奇数
@@ -152,7 +152,7 @@ void t3()
 
         }
     }
-    printVector(res);
+//    printVector(res);
     return;
 }
 
@@ -160,8 +160,8 @@ void t3()
 int main()
 {
 //    t1();
-//    t2_2();
-    t3();
+    t2_2();
+//    t3();
     return 0;
 
 }

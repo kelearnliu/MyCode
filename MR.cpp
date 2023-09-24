@@ -39,7 +39,8 @@ Lnode* GetElem(Lnode* head, int k)
     }
     return slow;
 }
-int main()
+
+void t1()
 {
     // 1->2->3->4->5 倒数第k个 这里k=2
     Lnode* head = new Lnode(1);
@@ -54,5 +55,9 @@ int main()
         cout<<res->data<<endl;
     else
         cout<<"没有符合条件的"<<endl;
+}
+int main()
+{
+    t1();
     return 0;
 }

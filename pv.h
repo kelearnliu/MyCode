@@ -13,9 +13,11 @@ void printVec(std::vector<T> t) {
 }
 template <typename T>
 void printVVec(std::vector<std::vector<T>> t) {
+    std::cout<<"["<<std::endl;
     for (auto c : t) {
         printVec(c);
     }
+    std::cout<<"]"<<std::endl;
 }
 
 class ListNode{
